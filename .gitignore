@@ -1,0 +1,43 @@
+# ==========================================
+# 1. VARIABLES DE ENTORNO Y SEGURIDAD
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+
+# ==========================================
+# 2. DEPENDENCIAS (El mayor peso del proyecto)
+# ==========================================
+# Si hay Python:
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Si hay Node.js / Frontend Web:
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Si hay Flutter/Dart:
+.dart_tool/
+.pub-cache/
+
+# ==========================================
+# 3. CARPETAS DE COMPILACIÓN Y EJECUTABLES
+# ==========================================
+build/
+dist/
+out/
+*.exe
+*.spec
+
+# ==========================================
+# 4. CONFIGURACIONES DE EDITORES Y SISTEMA
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
